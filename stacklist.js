@@ -17,7 +17,7 @@ class Stack
                 this.rootNode=element;
             }
             else{
-                var temp=this.rootNode;
+                let temp=this.rootNode;
                 while(temp.next!=null)
                 {
                     temp=temp.next;
@@ -33,7 +33,7 @@ class Stack
                 console.log("Pop is not possible");
              }
              else{
-                var temp=this.rootNode,temp1;
+                let temp=this.rootNode,temp1;
                 while(temp.next!=null)
                 {
                     temp1=temp;
@@ -44,7 +44,7 @@ class Stack
         }
         display()
         {
-            var temp=this.rootNode;
+            let temp=this.rootNode;
             if(temp==null)
             {
                 console.log("No elements");
@@ -59,7 +59,7 @@ class Stack
             }
         }
 }
-var stack=new Stack()
+let stack=new Stack()
 stack.push(45);
 stack.push(456);
 stack.push(53);
