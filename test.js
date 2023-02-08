@@ -93,7 +93,7 @@ console.log("Last index of "+res);
 User.prototype.college="Mepco";
 user1 = new User("Rohith", "20", "Mepco");
 console.log("Prototype ... "+user1.college);
-res=0/0;
+res=15.63
 console.log("Value of... "+ res.valueOf());
 console.log("From method... "+Array.from('Rohith Tringapps'));//create a array from string
 console.log("Index of method... "+everymethod.indexOf(14));
