@@ -7,7 +7,7 @@ function User (name, age) {
     this.age = age;
 }
 
-var user1 = new User('Rohith', 21);
+let user1 = new User('Rohith', 21);
 console.log("Constructor is...");
 console.log(user1);
 let fruits = ["Banana", "Orange", "Apple", "Mango",2,8,7];
@@ -16,16 +16,16 @@ console.log("Copywithin..."+fruits);
 const array1 = ['a', 'b', 'c'];
 const iterator1 = array1.entries();
 console.log("Entries... ");
-for(var i=0;i<array1.length;i++)
+for(let i=0;i<array1.length;i++)
 {
     console.log(iterator1.next().value);
 }
 const everymethod=[3,4,5,6,2,7,6];
-var x;
+let x;
 function isprime(x)
 {
-    var count=0;
-    for(var i=1;i<=x;i++)
+    let count=0;
+    for(let i=1;i<=x;i++)
     {
         if(x%i==0)
         {
@@ -37,7 +37,7 @@ function isprime(x)
         return true;
     }
 }
-var res=everymethod.every(value => isprime(value));
+let res=everymethod.every(value => isprime(value));
 console.log("Every method returns "+res);
 res=everymethod.some(value => isprime(value));
 console.log("Some method returns "+res);
