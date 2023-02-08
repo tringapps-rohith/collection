@@ -1,6 +1,6 @@
-arr1=[1,45,78,65,489,2];
-arr2=[4,5,6,7,88,77];
-conres=arr1.concat(arr2);
+let arr1=[1,45,78,65,489,2];
+let arr2=[4,5,6,7,88,77];
+let conres=arr1.concat(arr2);
 console.log("Concatenation is..."+conres);
 function User (name, age) {
     this.name = name;
@@ -16,7 +16,7 @@ console.log("Copywithin..."+fruits);
 const array1 = ['a', 'b', 'c'];
 const iterator1 = array1.entries();
 console.log("Entries... ");
-for(let i=0;i<array1.length;i++)
+for-of(let i=0;i<array1.length;i++)
 {
     console.log(iterator1.next().value);
 }
