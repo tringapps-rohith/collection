@@ -17,7 +17,7 @@ class QueueList
             this.rootNode=element;
         }
         else{
-            var temp=this.rootNode;
+            let temp=this.rootNode;
             while(temp.next!=null)
             {
                 temp=temp.next;
@@ -39,7 +39,7 @@ class QueueList
     }
     display()
     {
-        var temp=this.rootNode;
+        let temp=this.rootNode;
         if(temp==null)
         {
             console.log("Empty");
@@ -54,7 +54,7 @@ class QueueList
 
     }
 }
-var queue=new QueueList()
+let queue=new QueueList()
 queue.enqueue(56);
 queue.enqueue(67);
 queue.dequeue();
